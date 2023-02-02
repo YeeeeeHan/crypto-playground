@@ -31,3 +31,6 @@
 cache
 artifacts
 typechain-types
+
+# Openzeppelin
+*@openzeppelin
