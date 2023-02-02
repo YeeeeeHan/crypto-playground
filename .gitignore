@@ -26,3 +26,8 @@
 # config
 *.env
 *env.json
+
+# Hardhat files
+cache
+artifacts
+typechain-types

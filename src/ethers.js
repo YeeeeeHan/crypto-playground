@@ -1,9 +1,9 @@
 require('dotenv').config({ path: '../.env' })
 
-const { API_URL, PRIVATE_KEY } = process.env
+const { ALCHEMY_GOERLI_URL, PRIVATE_KEY } = process.env
 const { ethers } = require('ethers')
 const { hashMessage } = require('@ethersproject/hash')
-const provider = new ethers.providers.AlchemyProvider('goerli', API_URL)
+const provider = new ethers.providers.AlchemyProvider('goerli', ALCHEMY_GOERLI_URL)
 
 ;(async function () {
   const message = "hello"
