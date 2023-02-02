@@ -2,7 +2,7 @@
   "name": "crypto-playground",
   "version": "1.0.0",
   "description": "Repository containing code snippets relevant to web3, javascript and cryptography",
-  "main": "secp256k1.js",
+  "main": "src/secp256k1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

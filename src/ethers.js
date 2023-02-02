@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config({ path: '../.env' })
 
 const { API_URL, PRIVATE_KEY } = process.env
 const { ethers } = require('ethers')
